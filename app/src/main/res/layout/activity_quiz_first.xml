@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shatu.quiz.QuizFirst">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quiz"
+        android:text="Quiz"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#2de1de"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="Welcome to 'QUIZ'... This is the most wondering part of our Application... In this part you submit your answers within 60 seconds...You score 1 by clicking 1 correct answer and also score negetive 1 by wrong...Your time start when you click 'START' button... Best of luck :D"
+        android:textStyle="italic"
+        android:textColor="#df0808"
+        android:layout_below="@+id/quiz"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/start"
+        android:text="Start"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#34c763"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onStartButtonClick"/>
+
+</RelativeLayout>

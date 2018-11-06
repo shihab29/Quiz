@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shatu.quiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Quiz"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Option" />
+        <activity android:name=".Developer" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Start" />
+        <activity android:name=".Score" />
+        <activity android:name=".IqFirst" />
+        <activity android:name=".Iq" />
+        <activity android:name=".FunFirst" />
+        <activity android:name=".Fun" />
+        <activity android:name=".QuizFirst" />
+        <activity android:name=".Quiz" />
+        <activity android:name=".About" />
+        <activity android:name=".Id29" />
+        <activity android:name=".Id30" />
+        <activity android:name=".Id31" />
+        <activity android:name=".Id32" />
+        <activity android:name=".Id33" />
+        <activity android:name=".Id34" />
+        <activity android:name=".Id35" />
+        <activity android:name=".Id36" />
+        <activity android:name=".Id37" />
+        <activity android:name=".Id39" />
+        <activity android:name=".Id40" />
+        <activity android:name=".Id41" />
+        <activity android:name=".Id42" />
+        <activity android:name=".Id43" />
+        <activity android:name=".Id44" />
+        <activity android:name=".Id45" />
+        <activity android:name=".Id47" />
+        <activity android:name=".Id48" />
+        <activity android:name=".Id49" />
+        <activity android:name=".Idelse"></activity>
+    </application>
+
+</manifest>

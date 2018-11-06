@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shatu.quiz.FunFirst">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fun"
+        android:text="Fun"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#41d8e6"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:textStyle="italic"
+        android:textColor="#f20303"
+        android:text="Welcome to this article... This option is only for AUST CSE 34th Batch (A)... If you want to open FUN option you must put '4 Digit' passward and then click 'OK' button... Thank You :D"
+        android:layout_below="@+id/fun"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="7"
+        android:hint="Enter Password"
+        android:textAlignment="center"
+        android:id="@+id/password"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok"
+        android:text="ok"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#24ef2e"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:onClick="onOkButtonClick"/>
+
+
+</RelativeLayout>

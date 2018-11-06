@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/option"
+
+    tools:context=".Option">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:id="@+id/start"
+        android:background="@drawable/bstart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:onClick="start"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:id="@+id/quiz"
+        android:background="@drawable/bquiz"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/start"
+        android:layout_marginTop="10dp"
+        android:onClick="quiz_first"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:id="@+id/iq"
+        android:background="@drawable/biq"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/quiz"
+        android:layout_marginTop="10dp"
+        android:onClick="iq_first"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:id="@+id/fun"
+        android:background="@drawable/bfun"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/iq"
+        android:layout_marginTop="10dp"
+        android:onClick="fun_first"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:id="@+id/about"
+        android:background="@drawable/babout"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/fun"
+        android:layout_marginTop="10dp"
+        android:onClick="about"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:id="@+id/developer"
+        android:background="@drawable/bdeveloper"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/about"
+        android:onClick="developer"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
